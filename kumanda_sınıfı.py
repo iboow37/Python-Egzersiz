@@ -89,8 +89,8 @@ while True:
     işlem = input ("Yapmak İstediğiniz İşlemi Seçin: ")
     if (işlem == "q"):
         print ("Program Sonlandırılıyor...")
-        time.sleep(1)
         print ("Yine Bekleriz...\n (Coded By iboow37)")
+        time.sleep(5)
         break
     elif (işlem == "1"):
         kumanda.tv_ac()
